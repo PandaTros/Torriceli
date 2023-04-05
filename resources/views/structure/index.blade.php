@@ -38,7 +38,7 @@ Structure
                             <td>{{ ++$i }}</td>
                             <td>{{ $structure->nombres }}</td>
                             <td>{{ $structure->clave }}</td>
-                            <td>{{ $structure->numero }}</td>
+                            <td>{{ $structure->telefono }}</td>
                             <td>{{ $structure->avance }}</td>
                             <td>
                                 <form action="{{ route('structures.destroy',$structure->id) }}" method="POST">
